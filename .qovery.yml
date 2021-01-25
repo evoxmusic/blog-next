@@ -1,0 +1,11 @@
+---
+application:
+  name: "blog-next"
+  project: "BlogStrapi"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-blog-next"
+  routes:
+  - application_name: "blog-next"
+    paths:
+    - "/*"
